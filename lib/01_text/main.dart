@@ -2,7 +2,7 @@
  * @Author: Felix
  * @Email: felix@qingmaoedu.com
  * @Date: 2021-07-19 17:45:01
- * @LastEditTime: 2021-07-19 20:16:48
+ * @LastEditTime: 2021-07-19 20:28:08
  * @FilePath: /flutter_animation/lib/01_text/main.dart
  * Copyright © 2019 Shanghai Qingmao Network Technology Co.,Ltd All rights reserved.
  */
@@ -29,6 +29,7 @@ class StaticAimation extends StatelessWidget {
           centerTitle: true,
         ),
         body: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             Text(
